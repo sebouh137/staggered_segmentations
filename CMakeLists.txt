@@ -4,7 +4,7 @@ find_package( DD4hep REQUIRED COMPONENTS DDCore DDG4 )
 #find_package(Acts REQUIRED COMPONENTS Core PluginIdentification PluginTGeo PluginDD4hep )
 
 #-----------------------------------------------------------------------------------
-set(a_lib_name hg-cali-hex)
+set(a_lib_name staggered_segmentations)
 dd4hep_add_plugin(${a_lib_name} SOURCES src/*.cpp src/*.h
   )
 target_link_libraries(${a_lib_name}
